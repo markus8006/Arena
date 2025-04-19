@@ -1,3 +1,4 @@
 from django.shortcuts import render
 
-# Create your views here.
+def Matricula(request):
+    return render(request, 'Matricula.html')
