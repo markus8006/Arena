@@ -19,6 +19,7 @@ from django.urls import path
 from Home import views as home_views
 from Volei import views as volei_views
 from Matricula import views as matricula_views
+from ADM import views as adm_views
 from django.conf import settings
 
 urlpatterns = [
@@ -26,4 +27,6 @@ urlpatterns = [
     path('', home_views.Home, name='Home'),
     path('Volei/', volei_views.Volei, name='Volei'),
     path('Matricula/', matricula_views.Matricula, name='Matricula'),
+    path('Login/', adm_views.ADM_LOGIN, name='ADM_LOGIN'),
+    
 ]

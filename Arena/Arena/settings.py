@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'Home',
     'Volei',
     'Matricula',
+    'ADM',
 ]
 
 MIDDLEWARE = [
